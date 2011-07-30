@@ -1,6 +1,8 @@
 source 'http://rubygems.org'
 
 gem 'draper'
+gem 'haml-rails'
+gem 'informal'
 gem 'jquery-rails'
 gem 'rails', '3.1.0.rc5'
 
