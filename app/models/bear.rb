@@ -1,0 +1,2 @@
+class Bear < Shapeshifter
+end
