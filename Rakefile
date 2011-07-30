@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Presents::Application.load_tasks
+MagicalBeasts::Application.load_tasks

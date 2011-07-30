@@ -13,7 +13,7 @@ require "sprockets/railtie"
 # or test environments.
 Bundler.require *Rails.groups(:assets) if defined?(Bundler)
 
-module Presents
+module MagicalBeasts
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
