@@ -45,5 +45,12 @@ module Presents
 
     # Enable the asset pipeline
     config.assets.enabled = true
+
+    config.generators do |g|
+      g.assets              false
+      g.controller          helper: false, test_framework: false
+      g.fixture_replacement :fabrication
+      g.template_engine     :haml
+    end
   end
 end
