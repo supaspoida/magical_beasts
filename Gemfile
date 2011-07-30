@@ -13,5 +13,6 @@ group :assets do
 end
 
 group :development, :test do
+  gem 'fabrication'
   gem 'ruby-debug19', require: 'ruby-debug', platform: 'ruby_19'
 end
